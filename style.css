@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+  
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+}
+.hero-container {
+    flex: 0 1 1100px;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    padding: 134px 0 150px 0;
+}
+.texts {
+    flex: 1;
+    max-width: 460px;
+}
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+}
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 16px 0;
+}
+button {
+    font-size: 18px;
+    font-weight: 900;
+    background: rgb(0, 119, 255);
+    color: white;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+}
+.image {
+    flex: 0 1 550px;
+    min-height: 246px;
+    color: white;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
